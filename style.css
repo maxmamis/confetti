@@ -1,0 +1,43 @@
+body, html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background: url('countryside.jpg');
+	background-size: 100%;
+	/*background: black;*/
+
+	/*background: white;*/
+}
+
+#container {
+	-webkit-perspective: 3000px;
+	width: 100%;
+	height: 100%;
+	-webkit-transform-style: preserve-3d;
+
+}
+
+.particle {
+	position: absolute;
+	/*background: url('murray.jpg');*/
+	/*background-size: 20px 20px;*/
+	opacity: .6;
+	-webkit-transform-style: preserve-3d;
+	font: 12px helvetica;
+	line-height: 0;
+	font-size: 0;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+#fps {
+	font-size: 24px;
+	font-weight: bold;
+	position: absolute;
+	top:0;
+	left: 0;
+}
